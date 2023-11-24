@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px 100px;
+    background-color: rgba(25, 4, 34, 1);
+    color: #FFFFFF;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top1{
+    font-size: 30px;
+}
+
+.top1 span{
+    color: blueviolet;
+}
+
+.top2{
+    display: flex;
+    gap: 20px;
+}
+
+.top3{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.top4 button{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to left, rgb(156, 92, 216), red, green,  gray, pink, blue);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.top4 button:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+.top4 button:active{
+    transform: scale(2);
+    background-image: radial-gradient(blue, red, green);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.bottom1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.bottom1 h1{
+    font-size: 60px;
+}
+
+.bottom1 button{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to left, rgb(156, 92, 216), blue, red, black, green,  gray, pink );
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.bottom1 button:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+.bottom1 button:active{
+    transform: scale(2);
+    background-image: radial-gradient(blue, green, red);
+}
+
+.relative{
+    display: flex;
+    position: relative;
+}
+
+.absolutive{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 180px;
+    opacity: .97;
+    transform: rotate(50deg);
+}
+
+
+/* Head */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 80px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 200px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.head1{
+    font-size: 20px;
+}
+
+.head1 span{
+    color: rgba(188, 138, 252, 1);
+}
+
+/* Neck */
+
+.neck{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    background-color: #fff;
+}
+
+.neck2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 180px;
+    width: 600px;
+}
+
+.neck2 h1{
+    font-size: 50px;
+}
+
+.neck2 button{
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, red, blue, green, gray, black, yellow);
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.neck2 button:hover{
+    transform: rotate(720deg) scale(1.5) ;
+}
+
+.neck2 button:active{
+    transform: scale(2);
+    background-image: radial-gradient(yellow, green, blue, red, gray, black);
+}
+
+/* Chest */
+
+.chest{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 100px;
+    background-image: linear-gradient(to left, rgb(209, 209, 248), rgb(240, 240, 246));
+}
+
+.chest1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.chest2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.chest3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chest4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 450px;
+}
+
+.chest4 img{
+    width: 70px;
+}
+
+/* Stomach */
+
+.stomach{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: rgba(25, 4, 34, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.stomach1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.stomach2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stomach3{
+    display: flex;
+    gap: 20px;
+}
+
+.stomach3 img{
+    width: 250px;
+}
+
+/* Hand */
+
+.hand{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.hand2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px;
+}
+
+.hand2 h1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Leg */
+
+.leg{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 100px;
+    background-image: linear-gradient(to left, rgb(209, 209, 248), rgb(240, 240, 246));
+}
+
+.leg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leg2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leg3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    width: 500px;
+}
+
+.leg4{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Foot */
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: rgba(25, 4, 34, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot1 h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot1 h1 span{
+    color: blueviolet;
+}
+
+.foot1 ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.foot2{
+    display: flex;
+    gap: 15px;
+}
+
+.foot3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot4{
+    display: flex;
+}
+
+.foot4 input{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.foot4 button{
+    padding: 20px 25px;
+    background-image: linear-gradient(to right, blueviolet, red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .6s ease;
+    color: #fff;
+    font-size: 15px;
+}
+
+.foot4 button:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+.foot4 button:active{
+    background-image: radial-gradient(yellow, black, red);
+    transform: scale(2);
+}
+
+.foot5 img{
+    width: 200px;
+}
